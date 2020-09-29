@@ -1,0 +1,26 @@
+{
+    "name": "gooyer/contracts",
+    "description": "Gooyer contracts package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Łukasz Grajewski",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gooyer\\Contracts\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gooyer\\Contracts\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "gooyer/container": "*"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
