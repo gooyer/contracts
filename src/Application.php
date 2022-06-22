@@ -24,4 +24,7 @@ interface Application
      * Boot Application
      */
     public function boot(): void;
+
+
+    public function getRootPath(): string;
 }
